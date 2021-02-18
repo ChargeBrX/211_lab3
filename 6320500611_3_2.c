@@ -5,9 +5,9 @@ int main()
 
     scanf("%d",&n);
 
-    int pt[n];
+    int pt[48];
 
-    for(i=0;i<n;i++)
+    for(i=0;i<48;i++)
     {
         pt[i] = 0 ;
     }
@@ -20,7 +20,7 @@ int main()
 
     max = pt[0];
     loca = 1;
-    for(i=1;i<n;i++)
+    for(i=1;i<48;i++)
     {
         if(max<pt[i])
         {
